@@ -7,3 +7,6 @@ git pull origin main: con esto traemos las modificaciones que hay en el github p
 cat (un archivo) : para leer el contenido
 git log: para ver lo commiteado localmente
 git status: lit para saber donde estamos parados, que ha sido o no trackeado por git
+
+Podemos hacer distintos branches para modificar versiones archivos anteriores sin romper los que estan despues de ese, moviendonos con "git checkout (id del archivo)" 
+Luego ahi hacemos un "git checkout -b rollback". como mismo dice, vamos a modificar desde un rollback para no perder lo que ya hemos trabajado, pero seguir con algo anterior. Luego con checkout nos podemos mover por las branches
