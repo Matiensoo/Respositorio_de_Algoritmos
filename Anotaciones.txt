@@ -1,0 +1,9 @@
+Lo que vimos hoy es como crear un repositorio remoto, donde nosotros usamos github para subir nuestro repositorio local.
+
+Comandos clave: 
+git clone (link del repositorio desde github) : aca clonamos el repositorio para trabajar desde nuestra compu (para pegar en git bash es shift insert)
+git push -u origin main : con esto pusheamos las modificaciones que hicimos en la compu a github
+git pull origin main: con esto traemos las modificaciones que hay en el github para seguir trabajando desde la compu.
+cat (un archivo) : para leer el contenido
+git log: para ver lo commiteado localmente
+git status: lit para saber donde estamos parados, que ha sido o no trackeado por git
